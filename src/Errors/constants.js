@@ -1,0 +1,18 @@
+const ERROR_TYPES = {
+    INFO: 'INFO',
+    WARN: 'WARN',
+    ERROR: 'ERROR'
+}
+
+const ERROR_CODES = {
+    NOT_FOUND: 404,
+    BAD_REQUEST: 400,
+    INTERNAL_SERVER_ERROR: 500,
+    UNAUTHORIZED: 401,
+    UNPROCESSABLE_ENTITY: 422
+}
+
+module.exports = {
+    ERROR_CODES,
+    ERROR_TYPES
+}
